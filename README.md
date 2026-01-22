@@ -8,5 +8,20 @@ We are interested in how demographic factors and life decisions influence one’
 Not only is happiness relevant for personal quality of life, but also for the overall stability of families, communities, and countries.
 
 # Our Resources
+* Notebook LLM
+  * We are using Notebook LLM to obtain a dataset for our generative model 
+  
+# Tentative Timeline 
+* Thursday 1/22
+  * Finish Proposal ✅
+* Friday 1/23
+   * Work on LLM 
+* Monday 1/26
+  * Make our linear/polynomial model
+* Tuesday 1/27
+  * Get everything on the poster
+* Wednesday 1/28
+  * Presentation + implement any feedback/revisions needed
+* Thursday 1/29
+   * Submit Finalize project
 
-# Tentative Project 

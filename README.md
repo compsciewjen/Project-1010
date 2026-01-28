@@ -1,25 +1,45 @@
 # Project-1010
 
-# Abstract 
-This project analyses how various factors predict life satisfaction. It will focus on community-based variables including location, income, race/ethnicity, etc. Because there are many factors that can impact happiness, we will first use a LLM to 'read' several studies of happiness and determine the factors that are the most prevalent. Then we will use those variables to make a regression model that predicts happiness.
+# Goal 
+Our project was created to help identify the factors that most strongly predict happiness by analyzing existing research. Our aim is to examine variables that relate to happiness to better understand which environments best support people’s ability to enjoy their lives. 
 
-# Motivation 
-We are interested in how demographic factors and life decisions influence one’s life–particularly one’s ability to enjoy it. Which communities are likely to have happy people? Which ones aren’t? Can a higher income predict your happiness? Do people living in a certains cities hold the secret?
-Not only is happiness relevant for personal quality of life, but also for the overall stability of families, communities, and countries.
+# Background 
+We are interested in how both circumstances and perspectives influence individuals’ lives, particularly their ability to enjoy them. What mindsets and attributes do happy people have? Which ones do they not have? Are people at a certain age or income bracket happier?
+
+To answer our questions, we utilize two main resources: the General Social Survey Data Explorer (GSS), and the World Happiness Report (WHR). GSS is a well-established organization which has been conducting comprehensive social surveys since 1973. The World Happiness Report is “the world’s foremost publication on global wellbeing and how to improve it.”⁶
+
+In this study, we aim to identify variables that are most heavily correlated to happiness. We use various methods, incorporating GSS and WHR, to reduce the potential variables from almost 7,000 to the 3 most influential.
+
+# Ethical, Social, and Legal Implications
+Although our findings suggest that mindset plays a significant role in happiness, they do not diminish the importance of addressing material inequality. These insights should motivate personal growth while reinforcing our responsibility to support fair opportunities for everyone.
+
+Our project utilizes variables from the World Happiness Report database that encourages discussion around economic disparities, social factors, and mental health across different populations. Happiness is measured through self-reported subjective well-being which can be influenced by personal bias, cultural norms, and social expectations.
 
 # Our Resources
-* Notebook LLM
-  * We are using Notebook LLM to obtain a dataset for our generative model 
+* Google(2025). (https://gemini.google.com/)
+
+* GSS Data Explorer. Norc at the University of Chicago, (https://gssdataexplorer.norc.org/variables/vfilter)
+
+* Inputting Missing Values. Scikit. (https://scikit-learn.org/stable/modules/impute.html)
+
+* Ordinal Encoder. Scikit. (https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OrdinalEncoder.html) 
+
+* Schapiro, Benjamin. “Quick Guide to Variables in the 2024 GSS Cross-Section (Release 1).” GSS 2024 Release Variables, 22 May 2025. GSS Data Explorer (sda.berkeley.edu/sdaweb/docs/gss24rel1/DOC/GSS2024ReleaseVariables.pdf.)
+
+* World Happiness Report(2015-2025) (https://www.worldhappiness.report/analysis/)
+
   
 # Tentative Timeline 
 * Thursday 1/22
   * Finish Proposal ✅
 * Friday 1/23
-   * Work on LLM 
+   * Work on LLM ✅
+* Sunday 1/25
+   * Tidy data ✅
 * Monday 1/26
-  * Make our linear/polynomial model
+  * Make our model✅
 * Tuesday 1/27
-  * Get everything on the poster
+  * Get everything on the poster ✅
 * Wednesday 1/28
   * Presentation + implement any feedback/revisions needed
 * Thursday 1/29
